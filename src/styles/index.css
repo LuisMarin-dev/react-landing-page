@@ -10,3 +10,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.footer {
+    position: absolute;
+    /* width: 100% !important; */
+    left: 0;
+    right: 0;
+}
+
+/* .card {
+    height: 20vh !important;
+} */
